@@ -1,4 +1,10 @@
-const TicketPage = ({ params }: Readonly<{ params: { ticketId: string } }>) => {
+type PageProps = {
+  params: {
+    ticketId: string;
+  };
+};
+
+const TicketPage = ({ params }: PageProps) => {
   return <h2>Ticket Page {params.ticketId}</h2>;
 };
 
