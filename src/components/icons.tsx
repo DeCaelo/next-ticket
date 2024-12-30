@@ -56,43 +56,43 @@ export function IconCard({
 
 export const ICON_PRESETS = {
   priority: {
-    fromColor: "from-[oklch(66%_0.15_29.2)]", // red-500
-    toColor: "to-[oklch(71%_0.17_47.6)]", // orange-500
+    fromColor: "from-[oklch(66%_0.15_29.2)] from-0%", // red-500
+    toColor: "to-[oklch(71%_0.17_47.6)] to-100%", // orange-500
     textColor: "text-[oklch(86%_0.12_29.2)]" // red-100
   },
   comment: {
-    fromColor: "from-[oklch(70%_0.12_181.7)]", // teal-500
-    toColor: "to-[oklch(73%_0.13_195.8)]", // cyan-500
+    fromColor: "from-[oklch(70%_0.12_181.7)] from-0%", // teal-500
+    toColor: "to-[oklch(73%_0.13_195.8)] to-100%", // cyan-500
     textColor: "text-[oklch(90%_0.08_181.7)]" // teal-100
   },
   pending: {
-    fromColor: "from-[oklch(75%_0.16_75.5)]", // amber-500
-    toColor: "to-[oklch(83%_0.15_88.7)]", // yellow-500
+    fromColor: "from-[oklch(75%_0.16_75.5)] from-0%", // amber-500
+    toColor: "to-[oklch(83%_0.15_88.7)] to-100%", // yellow-500
     textColor: "text-[oklch(92%_0.09_75.5)]" // amber-100
   },
   tag: {
-    fromColor: "from-[oklch(66%_0.21_332.4)]", // pink-500
-    toColor: "to-[oklch(61%_0.22_15.1)]", // rose-500
+    fromColor: "from-[oklch(66%_0.21_332.4)] from-0%", // pink-500
+    toColor: "to-[oklch(61%_0.22_15.1)] to-100%", // rose-500
     textColor: "text-[oklch(89%_0.11_332.4)]" // pink-100
   },
   team: {
-    fromColor: "from-[oklch(65%_0.22_288.4)]", // violet-500
-    toColor: "to-[oklch(60%_0.21_306.3)]", // purple-500
+    fromColor: "from-[oklch(65%_0.22_288.4)] from-0%", // violet-500
+    toColor: "to-[oklch(60%_0.21_306.3)] to-100%", // purple-500
     textColor: "text-[oklch(88%_0.11_288.4)]" // violet-100
   },
   archive: {
-    fromColor: "from-[oklch(63%_0.05_83.4)]", // stone-500
-    toColor: "to-[oklch(62%_0.03_264.3)]", // zinc-500
+    fromColor: "from-[oklch(63%_0.05_83.4)] from-0%", // stone-500
+    toColor: "to-[oklch(62%_0.03_264.3)] to-100%", // zinc-500
     textColor: "text-[oklch(90%_0.02_83.4)]" // stone-100
   },
   check: {
-    fromColor: "from-[oklch(70%_0.13_142.5)]", // green-500
-    toColor: "to-[oklch(68%_0.14_160.7)]", // emerald-500
+    fromColor: "from-[oklch(70%_0.13_142.5)] from-0%", // green-500
+    toColor: "to-[oklch(68%_0.14_160.7)] to-100%", // emerald-500
     textColor: "text-[oklch(90%_0.08_142.5)]" // green-100
   },
   note: {
-    fromColor: "from-[oklch(65%_0.15_231.6)]", // blue-500
-    toColor: "to-[oklch(96%_0.15_231.6)]", // indigo-50
+    fromColor: "from-[oklch(65%_0.15_231.6)] from-0%", // blue-500
+    toColor: "to-[oklch(96%_0.15_231.6)] to-100%", // indigo-50
     textColor: "text-[oklch(88%_0.09_231.6)]" // blue-100
   }
 } as const;
