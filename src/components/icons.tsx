@@ -56,44 +56,44 @@ export function IconCard({
 
 export const ICON_PRESETS = {
   priority: {
-    fromColor: "from-red-500",
-    toColor: "to-orange-500",
-    textColor: "text-red-100"
+    fromColor: "from-[oklch(66%_0.15_29.2)]", // red-500
+    toColor: "to-[oklch(71%_0.17_47.6)]", // orange-500
+    textColor: "text-[oklch(86%_0.12_29.2)]" // red-100
   },
   comment: {
-    fromColor: "from-teal-500",
-    toColor: "to-cyan-500",
-    textColor: "text-teal-100"
+    fromColor: "from-[oklch(70%_0.12_181.7)]", // teal-500
+    toColor: "to-[oklch(73%_0.13_195.8)]", // cyan-500
+    textColor: "text-[oklch(90%_0.08_181.7)]" // teal-100
   },
   pending: {
-    fromColor: "from-amber-500",
-    toColor: "to-yellow-500",
-    textColor: "text-amber-100"
+    fromColor: "from-[oklch(75%_0.16_75.5)]", // amber-500
+    toColor: "to-[oklch(83%_0.15_88.7)]", // yellow-500
+    textColor: "text-[oklch(92%_0.09_75.5)]" // amber-100
   },
   tag: {
-    fromColor: "from-pink-500",
-    toColor: "to-rose-500",
-    textColor: "text-pink-100"
+    fromColor: "from-[oklch(66%_0.21_332.4)]", // pink-500
+    toColor: "to-[oklch(61%_0.22_15.1)]", // rose-500
+    textColor: "text-[oklch(89%_0.11_332.4)]" // pink-100
   },
   team: {
-    fromColor: "from-violet-500",
-    toColor: "to-purple-500",
-    textColor: "text-violet-100"
+    fromColor: "from-[oklch(65%_0.22_288.4)]", // violet-500
+    toColor: "to-[oklch(60%_0.21_306.3)]", // purple-500
+    textColor: "text-[oklch(88%_0.11_288.4)]" // violet-100
   },
   archive: {
-    fromColor: "from-stone-500",
-    toColor: "to-zinc-500",
-    textColor: "text-stone-100"
+    fromColor: "from-[oklch(63%_0.05_83.4)]", // stone-500
+    toColor: "to-[oklch(62%_0.03_264.3)]", // zinc-500
+    textColor: "text-[oklch(90%_0.02_83.4)]" // stone-100
   },
   check: {
-    fromColor: "from-green-500",
-    toColor: "to-emerald-500",
-    textColor: "text-green-100"
+    fromColor: "from-[oklch(70%_0.13_142.5)]", // green-500
+    toColor: "to-[oklch(68%_0.14_160.7)]", // emerald-500
+    textColor: "text-[oklch(90%_0.08_142.5)]" // green-100
   },
   note: {
-    fromColor: "from-blue-500",
-    toColor: "to-indigo-50",
-    textColor: "text-blue-100"
+    fromColor: "from-[oklch(65%_0.15_231.6)]", // blue-500
+    toColor: "to-[oklch(96%_0.15_231.6)]", // indigo-50
+    textColor: "text-[oklch(88%_0.09_231.6)]" // blue-100
   }
 } as const;
 
