@@ -1,16 +1,12 @@
 import { useParams } from "next/navigation";
 
+import Home from "./components/screens/home";
+
 interface RouteConfig {
   component: React.ComponentType;
   title: string;
   showSidebar?: boolean;
 }
-
-const Home = () => (
-  <div className="flex flex-1 flex-col gap-4 p-4 pt-0">
-    <h1 className="text-2xl font-bold">Home</h1>
-  </div>
-);
 
 const SignUp = () => (
   <div className="flex flex-1 flex-col gap-4 p-4 pt-0">
@@ -54,7 +50,6 @@ const TicketEdit = () => {
   );
 };
 
-// Configuration des routes avec leurs composants et titres pour le breadcrumb
 const routeConfig: Record<string, RouteConfig> = {
   "/": { component: Home, title: "Home", showSidebar: true },
   "/sign-up": { component: SignUp, title: "Sign Up" },
